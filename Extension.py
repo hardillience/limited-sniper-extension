@@ -146,16 +146,15 @@ async def help(ctx):
     msg = """# COMMANDS LIST
 
 **ITEMS**
-!add / !a {item_id / item_link} {max_price} --- Add an item to watcher
+!add / !a {item_id / item_link} --- Add an item to watcher
 !remove / !r {item_id / item_link} --- Remove an item from watcher
-!removeall --- Remove all items from watcher
-!focus / !f {item_id / item_link} {max_price} --- Removes all items and focuses on the specified item
-!maxprice / !mp {item_id / item_link} {new_max_price} --- Change an item's max price
+!removeall / !ra --- Remove all items from watcher
+!focus / !f {item_id / item_link} --- Removes all items and focuses on the specified item
+!gmp / !mp / !maxprice / !global_max_price {new_max_price} --- Change an item's max price
 
 **BOT CONFIG**
 !token {bot_token} --- Change the bot token [idk if this works tbh lmao]
 !cookie {cookie} --- Change the ROBLOX cookie [idk if this also works lmaoaoao]
-!speed {new_watch_speed} --- Change the watch speed to your desired value   
 
 !adduser / !au {user_id} --- Authorize a person to use your bot
 !removeuser / !ru {user_id} --- Remove an authorized person from using your bot
